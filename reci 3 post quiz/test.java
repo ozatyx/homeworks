@@ -1,9 +1,10 @@
 
 public class test {
-    public static void main(){
-        int a = 1;
-        String b = "123";
-
-        System.out.println(a+b);
+    public static void main(String[] args){
+        int x = 0;
+        for ( int i = 0; i < 5; i++ ) {
+            x += 1;
+            System.out.println(x);
+        }
     }
 }
