@@ -31,7 +31,7 @@ public class StaircaseBuilder {
                 System.out.print(stair[row][col]);
             }
 
-            System.out.println("");
+            System.out.println(" ".charAt(0));
         }
 
         System.out.println("Bricks remaining: " + bricks);
