@@ -10,16 +10,14 @@ public class StaircaseBuilder {
         int curHeight = width-1;
 
         for(int col = 0; col <= width-1; col++){
-            for(int row = width-1; row>=0; row--){
-                if(bricks>0){
-                    if((row >= curHeight)){
+            for(int row = width-1; row >= 0; row--){
+                    if((row >= curHeight)&&(bricks>0)){
                         stair[row][col] = "X".charAt(0);
                         bricks--;
                     }else{
                         stair[row][col] = " ".charAt(0);
                         
                     }
-                }else{break;}
             }
             curHeight--;
         }
@@ -31,7 +29,7 @@ public class StaircaseBuilder {
                 System.out.print(stair[row][col]);
             }
 
-            System.out.println(" ".charAt(0));
+            System.out.println("");
         }
 
         System.out.println("Bricks remaining: " + bricks);
