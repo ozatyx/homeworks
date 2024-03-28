@@ -18,9 +18,18 @@ public class AirParticles {
     
     public static double findHighestLevel (double[] communities) {
 
-        // WRITE YOUR CODE HERE
+        int len = communities.length;
+        double max = communities[0];
+        
+        for(int i = 1; i < len; i++){
+            if(communities[i]>max){
+                max = communities[i];
+
+            }
+
+        }
 	
-        return 0.0; // replace this line
+        return max; // replace this line
     }
 
     /*

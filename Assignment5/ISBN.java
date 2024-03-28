@@ -30,7 +30,19 @@ public class ISBN {
      */
     public static void calculateISBN10(int[] isbn) {
 
-        /* WRITE YOUR CODE HERE */
+        int weight = 10;
+        int tot = 0;
+
+        for(int i = 0; i < 9; i++){
+            tot = tot + isbn[i]*weight;
+            weight--;
+        }
+
+        int rem = tot % 11;
+        int diff = 11 - rem;
+        rem = diff % 11;
+        isbn[9] = rem;
+
 
     }
 
@@ -44,7 +56,45 @@ public class ISBN {
      */
     public static int[] calculateISBN13(int[] shortIsbn) {
 
-        /* WRITE YOUR CODE HERE */
+        int[] isbn13 = new int[13];
+        isbn13[0] = 9;
+        isbn13[1] = 7;
+        isbn13[2] = 8;
+        int start = 3;
+        int tot = 0;
+        for (int i = 0; i < shortIsbn.length; i++){
+
+            isbn13[start] = shortIsbn[i];
+            start++;
+
+        }
+
+        for (int i = 0; i < isbn13.length; i++){
+            if(i % 2 == 0){
+                tot = tot + isbn13[i]*1;
+
+            } else{
+
+                tot = tot + isbn13[i]*3;
+
+            }
+
+        }
+
+        int rem = tot % 10;
+
+        if(rem ==0){
+
+            isbn13[12] = 0;
+
+        } else{
+
+            isbn13[12] = 10-rem;
+
+        }
+
+        return isbn13;
+
 
     }
 
