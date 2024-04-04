@@ -115,7 +115,8 @@ public class Communities {
 
 	// WRITE YOUR CODE HERE
 
-	return 0.0; // replace this line
+
+	    return data[commnunity][14]; // replace this line
     }
 
 
@@ -130,8 +131,13 @@ public class Communities {
     public static double findAverageLifeExpectancy(double[][] data) {
         
         // WRITE YOUR CODE HERE
-        
-        return 0.0; // replace this line
+        int comNum = data.length;
+        double avg = 0;
+        for(int rows = 0; rows<comNum; rows++){
+            avg = avg + data[rows][18]; 
+        }
+        avg = avg/comNum;
+        return avg; // replace this line
     }
 
 
@@ -148,10 +154,35 @@ public class Communities {
      * @return        the highest number of cases of health issue.
      */
     public static double highestPopulationWithHealthIssue (double[][] data, char healthIssue) {
-
+        int len = data.length;
+        double[] cat = new double[len];
          // WRITE YOUR CODE HERE
-        
-        return 0.0; // replace this line
+        switch (healthIssue) {
+            case 'A':
+                    for(int rows = 0; rows<len; rows++){
+                        cat[rows] = data[rows][15];
+                    }
+                    break;
+
+            case 'D':
+                    for(int rows = 0; rows<len; rows++){
+                        cat[rows] = data[rows][16];
+                    }
+                    break;
+
+            case 'H':
+                    for(int rows = 0; rows<len; rows++){
+                        cat[rows] = data[rows][17];
+                    }
+                    break;
+        }
+        double maxVal = cat[0];
+        for(int i = 1; i < cat.length; i++){
+            if (maxVal < cat[i]){
+                maxVal = cat[i];
+            }
+        }
+        return maxVal; // replace this line
     }
 
     /*
@@ -167,10 +198,28 @@ public class Communities {
      * @return               the number of communities.
      */
     public static int numberOfCommunities (double[][] data, int columnIndex, double percentageThreshold, boolean isDisadvantage) {
-
+        int len = data.length;
+        int count = 0;
+        if(isDisadvantage){
+            for(int row = 0; row < len; row++){
+                if(data[row][21] == 1){
+                    if(data[row][columnIndex]*100 >= percentageThreshold){
+                        count++;
+                    }
+                }
+            }
+        }else{
+            for(int row = 0; row < len; row++){
+                if(data[row][21] == 0){
+                    if(data[row][columnIndex]*100 >= percentageThreshold){
+                        count++;
+                    }
+                }
+            }
+        }
          // WRITE YOUR CODE HERE
 
-        return 0; replace this line
+        return count; //replace this line
     }
 
     /*
@@ -186,8 +235,13 @@ public class Communities {
     public static double largestRacialDemographic(double[][] data, int community) {
 
         // WRITE YOUR CODE HERE
-
-        return 0.0; // replace this line
+        double maxVal = data[community][0];
+        for(int col = 1; col < 7; col++){
+            if(maxVal < data[community][col]){
+                maxVal = data[community][col];
+            }
+        }
+        return maxVal*100; // replace this line
     }
 
     /*
@@ -202,8 +256,18 @@ public class Communities {
     public static int mostPopulatedDisadvantagedWithLowIncome(double[][] data) {
         
         // WRITE YOUR CODE HERE
-
-        return 0.0; // replace this line
+        int rows = data.length;
+        double maxVal = 0.0;
+        int maxInd = 0;
+        for(int row = 0; row<rows; row++){
+            if((data[row][20] == 1)&&(data[row][21] == 1)){
+                if(maxVal < data[row][11]){
+                    maxVal = data[row][11];
+                    maxInd = row;
+                }
+            }
+        }
+        return maxInd; // replace this line
     }
 
 
@@ -211,7 +275,7 @@ public class Communities {
 
         // Update the main function to test your functions
 
-        double[][] data = readDataFromFile("SampleCommunitiesData.csv");
+        double[][] data = readDataFromFile("CommunitiesData.csv");
         
         int community = 12;
         StdOut.printf("\nPM 2.5 Level (community %d): %.2f\n", community, getPM25Level(data, community));
