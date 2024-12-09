@@ -1,6 +1,6 @@
 # Chance's Homework
-This is a repository of my homework for all of my university classes. Each folder is dedicated to a certain course, its labs, and recitations if applicable.
-Although it would proably be better to have separate repos for each class, I'd like to see how much percentage each coding language takes up to see which languages I have work with most frequently, and which I should practice more on.
+This is a repository of my homework for all of my courses. Each folder is dedicated to a certain course, its labs, and recitations if applicable.
+Although it would proably be better to have separate repos for each class, I'd like to see how much percentage each coding language takes up to see which languages I have worked with most frequently, and which I should practice more on.
 
 ## Classes taken so far:
 
