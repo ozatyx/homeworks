@@ -1,0 +1,9 @@
+* G:\Other computers\My Computer\Coursework\PEE1 LAB\LTSPICE\Draft2.asc
+R1 N001 N002 40k
+R2 N001 N002 60k
+R3 0 N001 12k
+R4 N002 0 36k
+I1 0 N002 0.001
+.tran 1
+.backanno
+.end

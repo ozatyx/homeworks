@@ -1,0 +1,9 @@
+* G:\Other computers\My Computer\Coursework\PEE1\lab2\prelab circuit.asc
+Vin N001 0 10V
+R1 N002 N001 2k
+R3 N002 0 2k
+R2 N003 N002 2k
+Ro 0 N003 2k
+.tran 1
+.backanno
+.end

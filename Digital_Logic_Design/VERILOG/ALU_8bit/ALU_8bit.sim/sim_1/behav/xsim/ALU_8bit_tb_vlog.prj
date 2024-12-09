@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"C:/Users/ozaty/Downloads/ALU_8bit.v" \
+"../../../../ALU_8bit.srcs/sources_1/new/tester.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

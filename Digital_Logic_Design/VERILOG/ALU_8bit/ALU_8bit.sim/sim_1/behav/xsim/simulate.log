@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+add op=000 out=00110010
+sub op=001 out=11101000
+and op=010 out=00000101
+or  op=011 out=00101101
+xor op=100 out=00101000
+not op=101 out=11110010
+shl op=110 out=00011010
+shr op=111 out=00000110
+add op=000 out=00101001
+sub op=001 out=00000011
+and op=010 out=00010010
+or  op=011 out=00010111
+xor op=100 out=00000101
+not op=101 out=11101001
+shl op=110 out=00101100
+shr op=111 out=00001011
+$finish called at time : 51 ns : File "G:/Other computers/My Computer/Coursework/DLD/VERILOG/ALU_8bit/ALU_8bit.srcs/sources_1/new/tester.v" Line 36
