@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "6eef912c0a476c31",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0ebf2add8d4e7a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "083710f1b08870a5",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "random variables/Discrete Random Variables/Types of Discrete Random Variables/Negative Binomial Random Variable.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.322916666666667,
+                  "repelStrength": 10.9375,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.0078125,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Negative Binomial Random Variable"
+            }
+          },
+          {
+            "id": "ce23f5d822b2fc10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "random variables/Discrete Random Variables/Types of Discrete Random Variables/Negative Binomial Random Variable.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Negative Binomial Random Variable"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "154fba79de3bf871",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fabd59072784b92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "023888b937cfb633",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fedfe5aa248e5995",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "95c6991de8940b4a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 341.5
+  },
+  "right": {
+    "id": "d906932d547c212a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1924f010ac913335",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95398b04a58cdc7e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "random variables/Jointly Distributed Random Variables/Jointly Distributed Random Variables.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Jointly Distributed Random Variables"
+            }
+          },
+          {
+            "id": "f8d931e9f3dc14a6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "random variables/Jointly Distributed Random Variables/Jointly Distributed Random Variables.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Jointly Distributed Random Variables"
+            }
+          },
+          {
+            "id": "9db724b6d1576e21",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "146b62133fca3984",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "random variables/Jointly Distributed Random Variables/Jointly Distributed Random Variables.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Jointly Distributed Random Variables"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ce23f5d822b2fc10",
+  "lastOpenFiles": [
+    "random variables/Discrete Random Variables/Types of Discrete Random Variables/Negative Binomial Random Variable.md",
+    "random variables/Discrete Random Variables/Types of Discrete Random Variables/Geometric Random Variables.md",
+    "random variables/Discrete Random Variables/Properties of Discrete Random Variables/Expected Value or Expectation.md",
+    "random variables/Discrete Random Variables/Types of Discrete Random Variables/Binomial Random Variable.md",
+    "random variables/Continuous Random Variables/Continuous Random Variables.md",
+    "random variables/Discrete Random Variables/Properties of Discrete Random Variables/Variance.md",
+    "random variables/Discrete Random Variables/Properties of Discrete Random Variables/Cumulative Distribution Function.md",
+    "random variables/Discrete Random Variables/Types of Discrete Random Variables/Bernoulli Random Variable.md",
+    "random variables/Discrete Random Variables/Properties of Discrete Random Variables/Properties of Random Variables.md",
+    "random variables/Discrete Random Variables/Properties of Discrete Random Variables/Probability Mass Function.md",
+    "random variables/Random Variables.md",
+    "Probability.md",
+    "random variables/Discrete Random Variables/Properties of Discrete Random Variables/Expected Values of Sums of Random Variables.md",
+    "random variables/Discrete Random Variables/Properties of Discrete Random Variables/Properties of Binomial Random Variables.md",
+    "random variables/Types of Random Variables.md",
+    "random variables/Discrete Random Variables/Discrete Random Variables.md",
+    "random variables/Discrete Random Variables/Types of Discrete Random Variables/Hypergeometric Random Variables.md",
+    "random variables/Continuous Random Variables/Types of Continuous Random Variables/Weibull Distribution.md",
+    "random variables/Continuous Random Variables/Types of Continuous Random Variables/Uniform Random Variable.md",
+    "random variables/Continuous Random Variables/Types of Continuous Random Variables/Pareto Distribution.md",
+    "random variables/Continuous Random Variables/Types of Continuous Random Variables/Types of Continuous Random Variables.md",
+    "random variables/Continuous Random Variables/Types of Continuous Random Variables/Normal Distribution.md",
+    "random variables/Continuous Random Variables/Types of Continuous Random Variables/Lognormal Distribution.md",
+    "random variables/Continuous Random Variables/Types of Continuous Random Variables/Gamma Distribution.md",
+    "random variables/Continuous Random Variables/Types of Continuous Random Variables/Exponential Random Variable.md",
+    "random variables/Continuous Random Variables/Types of Continuous Random Variables/Cauchy Distribution.md",
+    "random variables/Jointly Distributed Random Variables",
+    "random variables/Continuous Random Variables/Types of Continuous Random Variables",
+    "random variables/Discrete Random Variables/Types of Discrete Random Variables",
+    "random variables/Continuous Random Variables/Properties of Continuous Random Variables",
+    "random variables/Continuous Random Variables",
+    "random variables/Discrete Random Variables",
+    "random variables/Discrete Random Variables/Properties of Discrete Random Variables",
+    "random variables"
+  ]
+}

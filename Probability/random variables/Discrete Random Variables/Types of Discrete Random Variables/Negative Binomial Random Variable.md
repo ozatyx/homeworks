@@ -1,0 +1,1 @@
+Negative Binomial [[Random Variables]] are [[Discrete Random Variables]] that describe the probability that 
